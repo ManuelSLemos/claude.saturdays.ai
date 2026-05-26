@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1f2f"/>
+      <stop offset="100%" stop-color="#0d111c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0%" stop-color="#ff9d5a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff9d5a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.1" cy="0.9" r="0.5">
+      <stop offset="0%" stop-color="#fea000" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#fea000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 110)">
+    <rect x="0" y="0" width="380" height="38" rx="19" fill="rgba(255, 157, 90, 0.12)" stroke="#ff9d5a" stroke-width="1.5"/>
+    <circle cx="22" cy="19" r="5" fill="#ff9d5a"/>
+    <text x="40" y="25" font-family="ui-monospace, JetBrains Mono, monospace" font-size="13" fill="#ff9d5a" letter-spacing="1.5">PRIMERA COHORTE HISPANOHABLANTE</text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(80, 200)" font-family="Montserrat, system-ui, sans-serif" fill="#ffffff">
+    <text x="0" y="60" font-size="68" font-weight="800" letter-spacing="-1.5">Certifícate como</text>
+    <text x="0" y="140" font-size="68" font-weight="800" letter-spacing="-1.5"><tspan fill="#ff9d5a">Arquitecto de Claude</tspan></text>
+    <text x="0" y="220" font-size="68" font-weight="800" letter-spacing="-1.5">en español.</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="80" y="490" font-family="Nunito, system-ui, sans-serif" font-size="22" font-weight="500" fill="rgba(255,255,255,0.72)">Primera certificación técnica oficial de Anthropic · 5 semanas con mentores Saturdays.AI</text>
+
+  <!-- Brand -->
+  <g transform="translate(80, 540)">
+    <circle cx="22" cy="22" r="22" fill="#ff9d5a"/>
+    <text x="22" y="30" font-family="Montserrat, system-ui, sans-serif" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">S</text>
+    <text x="58" y="22" font-family="Nunito, system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Saturdays.AI</text>
+    <text x="58" y="40" font-family="ui-monospace, JetBrains Mono, monospace" font-size="12" fill="rgba(255,255,255,0.55)">cohorte CCA-F · claude.saturdays.ai</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <g opacity="0.5">
+    <circle cx="1080" cy="180" r="6" fill="#ff9d5a"/>
+    <circle cx="1120" cy="220" r="4" fill="#fea000"/>
+    <circle cx="1060" cy="260" r="3" fill="#fb6962"/>
+  </g>
+</svg>
